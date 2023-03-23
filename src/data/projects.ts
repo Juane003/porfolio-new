@@ -1,7 +1,7 @@
 export default [
   {
     title: "CRWN E-Commerce",
-    imgUrl: "src/assets/projects/CRWN.png",
+    imgUrl: "/src/assets/projects/CRWN.png",
     techStack: [
       "React",
       "React Router",
@@ -15,7 +15,7 @@ export default [
   },
   {
     title: "Countries Flag",
-    imgUrl: "src/assets/projects/countries.png",
+    imgUrl: "/src/assets/projects/countries.png",
     techStack: [
       "React",
       "Typescript",
@@ -29,7 +29,7 @@ export default [
   },
   {
     title: "Netflix Clone",
-    imgUrl: "src/assets/projects/netflix.png",
+    imgUrl: "/src/assets/projects/netflix.png",
     techStack: [
       "React",
       "Typescript",

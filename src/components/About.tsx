@@ -1,5 +1,3 @@
-import { Button } from "./Button";
-
 export const About = () => {
   return (
     <section

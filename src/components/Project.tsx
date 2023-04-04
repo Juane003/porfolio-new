@@ -1,10 +1,12 @@
 interface Project {
+  id: number;
   title: string;
   imgUrl: string;
   techStack: string[];
   link: string;
   gitRepository: string;
 }
+interface TechStack {}
 
 interface ProjectProps {
   project: Project;
@@ -18,6 +20,7 @@ export const Project = ({ project }: ProjectProps) => {
       <img
         src={imgUrl}
         className="object-contain h-36 md:h-48 mb-2 md:mb-3 w-full flex items-center justify-center"
+        alt="techImg"
       />
       <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold text-center">
         {title}
@@ -25,7 +28,10 @@ export const Project = ({ project }: ProjectProps) => {
 
       <div className="grid grid-cols-3 text-center h-40 gap-4 mb-2 md:mb-3">
         {techStack.map((tech) => (
-          <span className="flex justify-center items-center px-2 py-1 font-semibold border-2 rounded-md  ">
+          <span
+            className="flex justify-center items-center px-2 py-1 font-semibold border-2 rounded-md"
+            key={tech}
+          >
             {tech}
           </span>
         ))}

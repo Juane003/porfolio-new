@@ -8,7 +8,16 @@ import node from "../assets/skills/Node.svg";
 import tailwind from "../assets/skills/TailwindCSS.svg";
 import { Title } from "./Title";
 
-const logos = [git, css, html, javascript, typescript, react, node, tailwind];
+const logos = [
+  { id: 1, img: git },
+  { id: 2, img: css },
+  { id: 3, img: html },
+  { id: 4, img: javascript },
+  { id: 5, img: typescript },
+  { id: 6, img: react },
+  { id: 7, img: node },
+  { id: 8, img: tailwind },
+];
 
 export const Skills = () => {
   return (
@@ -18,7 +27,9 @@ export const Skills = () => {
         <div className=" mb-6  grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-4">
           {logos.map((logo) => (
             <img
-              src={logo}
+              alt="skills logo"
+              key={logo.id}
+              src={logo.img}
               className="bg-transparent border-2  rounded-md p-4 w-32 h-32"
             />
           ))}

@@ -3,7 +3,7 @@ export const Navbar = () => {
     <div className="w-full flex justify-center sticky top-0 backdrop-blur-md ">
       <nav className="w-3/4 flex justify-between p-4 ">
         <a href="/">
-          <img src="letter.svg" />
+          <img src="letter.svg" alt="logo" className="w-4 h-8" />
         </a>
 
         <ul className="text-zinc-200 flex gap-4">

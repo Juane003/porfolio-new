@@ -2,7 +2,7 @@ const LinkedinLogo = () => (
   <svg
     stroke="currentColor"
     fill="currentColor"
-    stroke-width="0"
+    strokeWidth="0"
     role="img"
     viewBox="0 0 24 24"
     className=" hover:text-zinc-200 cursor-pointer transition-all duration-500 w-6 h-8"
@@ -17,7 +17,7 @@ const GitHubLogo = () => (
   <svg
     stroke="currentColor"
     fill="currentColor"
-    stroke-width="0"
+    strokeWidth="0"
     role="img"
     viewBox="0 0 24 24"
     className=" hover:text-zinc-200 cursor-pointer transition-all duration-500 w-6 h-8"

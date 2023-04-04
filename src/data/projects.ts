@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "CRWN E-Commerce",
     imgUrl: "CRWN.png",
     techStack: [
@@ -14,6 +15,7 @@ export default [
     gitRepository: "https://github.com/Juane003/capstone-project",
   },
   {
+    id: 2,
     title: "Countries Flag",
     imgUrl: "countries.png",
     techStack: [
@@ -28,6 +30,7 @@ export default [
     gitRepository: "https://github.com/Juane003/Countries-Flags",
   },
   {
+    id: 3,
     title: "Netflix Clone",
     imgUrl: "netflix.png",
     techStack: [

@@ -8,23 +8,25 @@ export const About = () => {
         Juan Emilio Rivero
       </h1>
       <p className="text-base md:text-cl mb-3 font-medium dark:text-zinc-200">
-        Web Developer & Student
+        Full Stack Developer
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold dark:text-zinc-200">
-        I'm an enthusiast Web Developer based in Argentina.
+        I'm an enthusiast Full Stack Developer based in Argentina.
         <br />
-        Currently studying Associate Degree in Programming at UTN FRSN.
+        Quick learner and always looking for new challenges.
+        <br />
+        Over 2 years of experience in the field of web development.
       </p>
       <div className="flex gap-4">
         <a
           href="#contact"
           className=" flex items-center justify-center bg-zinc-200 w-32 h-8 text-zinc-900 p-2 rounded-md hover:bg-transparent hover:text-zinc-200 border hover:border-zinc-200 duration-300 font-semibold"
         >
-          Contact Me!
+          Contact Me
         </a>
 
         <a
-          href="CV-EMILIO-RIVERO.pdf"
+          href="cv.pdf"
           download
           className="flex items-center justify-center bg-zinc-200 w-32 h-8 text-zinc-900 p-2 rounded-md hover:bg-transparent hover:text-zinc-200 border hover:border-zinc-200 duration-300 font-semibold"
         >

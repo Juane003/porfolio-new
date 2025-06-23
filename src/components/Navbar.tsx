@@ -9,6 +9,7 @@ export const Navbar = () => {
         <ul className="text-zinc-200 flex gap-4">
           <ListItem text="About" />
           <ListItem text="Projects" />
+          <ListItem text="Experience" />
           <ListItem text="Skills" />
           <ListItem text="Contact" />
         </ul>

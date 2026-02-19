@@ -11,11 +11,9 @@ export const About = () => {
         Full Stack Developer
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold dark:text-zinc-200">
-        I'm an enthusiast Full Stack Developer based in Argentina.
-        <br />
-        Quick learner and always looking for new challenges.
-        <br />
-        Over 2 years of experience in the field of web development.
+      With 3+ years of experience in web development, I focus on building clean, maintainable applications using React, TypeScript, and modern full-stack tools.
+      <br />
+      I’m especially interested in performance optimization and scalable frontend architecture.
       </p>
       <div className="flex gap-4">
         <a
